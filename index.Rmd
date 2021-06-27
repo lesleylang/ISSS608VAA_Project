@@ -2,6 +2,10 @@
 title: "VAAProject"
 description: |
   This is the project page for ISSS608 Visual Analytics and Applications
+
+author : 
+
+
 site: distill::distill_website
 ---
 
