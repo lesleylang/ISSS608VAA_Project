@@ -93,7 +93,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--  https://schema.org/Article -->
 <meta property="article:published" itemprop="datePublished" content="2021-06-27"/>
 <meta property="article:created" itemprop="dateCreated" content="2021-06-27"/>
-<meta name="article:author" content="Unknown"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <meta property="og:title" content="VAAProject: ISSS608 Visual Analytics and Applications Project Proposal"/>
@@ -111,12 +110,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["ISSS608 Visual Analytics and Applications Project Proposal"]},{"type":"character","attributes":{},"value":["This is the proposal of our group's Visual Analytics and Applications Project"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Unknown"]}]}]},{"type":"character","attributes":{},"value":["06-27-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output","date"]}},"value":[{"type":"character","attributes":{},"value":["ISSS608 Visual Analytics and Applications Project Proposal"]},{"type":"character","attributes":{},"value":["This is the proposal of our group's Visual Analytics and Applications Project"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["06-27-2021"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["isss608-visual-analytics-and-applications-project-proposal_files/anchor-4.2.2/anchor.min.js","isss608-visual-analytics-and-applications-project-proposal_files/bowser-1.9.3/bowser.min.js","isss608-visual-analytics-and-applications-project-proposal_files/distill-2.2.21/template.v2.js","isss608-visual-analytics-and-applications-project-proposal_files/header-attrs-2.6/header-attrs.js","isss608-visual-analytics-and-applications-project-proposal_files/jquery-1.11.3/jquery.min.js","isss608-visual-analytics-and-applications-project-proposal_files/popper-2.6.0/popper.min.js","isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy-bundle.umd.min.js","isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy-light-border.css","isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy.css","isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy.umd.min.js","isss608-visual-analytics-and-applications-project-proposal_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"NULL"}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2061,7 +2060,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"ISSS608 Visual Analytics and Applications Project Proposal","description":"This is the proposal of our group's Visual Analytics and Applications Project","authors":[{"author":"Unknown","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-27T00:00:00.000+08:00","citationText":"Unknown, 2021"}
+{"title":"ISSS608 Visual Analytics and Applications Project Proposal","description":"This is the proposal of our group's Visual Analytics and Applications Project","authors":[],"publishedDate":"2021-06-27T00:00:00.000+08:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2090,14 +2089,8 @@ document.addEventListener('DOMContentLoaded', function() {
 <p><p>This is the proposal of our group’s Visual Analytics and Applications Project</p></p>
 </div>
 
-<div class="d-byline">
-  Unknown  
-  
-<br/>06-27-2021
-</div>
 
 <div class="d-article">
-<hr />
 <h1 id="background-and-objectives">Background and Objectives</h1>
 <hr />
 <p>The company in question is GAStech International (“GT”), which operates in Abila, Kronos, has company cars approved for both personal and business use. Those that do not have company cars have the ability to check out company trucks for business use, but not for personal business. These vehicles have geospatial tracking software to track their movement. To add on to this, GT employees are provided with loyalty and credit cards whose usages are also monitored.</p>
@@ -2147,7 +2140,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><p>ESRI shapesfiles of Abila, Kronos</p></li>
 <li><p>MC2-tourist.jpg, which is a tourist map of Abila, Kronos with locations of interest identified</p></li>
 </ul>
-<p>[INSERT IMAGE HERE (MC2-tourist.jpg)]</p>
+<p><img src="img/MC2-tourist.jpg" /></p>
 <hr />
 <p>We will proceed by looking through the CSV files in more detail to further understand the datasets provided.</p>
 <p><strong>car-assignments.csv, 44 rows</strong></p>
@@ -2189,7 +2182,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </table>
 <p>Note: Each employee is allocated 1 car, however, there are 9 employees that are not assigned cars. These 9 employees are truck drivers.</p>
 <p>Taking a closer look into CurrentEmploymentType and CurrentEmploymentTitle gives us an overview of the organisation structure.</p>
-<p>[INSERT IMAGE HERE (ORGANISATION STRUCTURE)]</p>
+<p><img src="img/ORGANISATION%20STRUCTURE.png" /></p>
 <p>Each employee can only have one employment title while one employment title can have 1 or more employees. Each employment type has more than 1 employment title and at least one manager that supervises the department. The identified managers are as follows:</p>
 <table>
 <thead>
@@ -2255,7 +2248,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </tbody>
 </table>
 <p>Plotting the price on a box plot, we have noted the following:</p>
-<p>[INSERT IMAGE HERE (BOX PLOT - CC)]</p>
+<p><img src="img/boxplot%20for%20cc%20txn.png" style="width:25.0%" /></p>
 <hr />
 <p><strong>loyalty-data.csv, 1,392 rows</strong></p>
 <table>
@@ -2291,7 +2284,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </table>
 <p>Note: Looking at the difference for locations in cc-data and loyalty-data, it seems that Daily Dealz does not offer loyalty points.</p>
 <p>Plotting the price on a box plot, we have noted the following:</p>
-<p>[INSERT IMAGE HERE (BOX PLOT - LOYALTY)]</p>
+<p><img src="img/box%20plot%20for%20lyt%20cd%20txn.png" style="width:25.0%" /></p>
 <hr />
 <p><strong>gps.csv, 685,169 rows</strong></p>
 <table>
