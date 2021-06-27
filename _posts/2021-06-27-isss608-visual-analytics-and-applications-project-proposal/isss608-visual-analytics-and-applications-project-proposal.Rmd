@@ -42,7 +42,7 @@ Other information we are provided with are as follows:
 * MC2-tourist.jpg, which is a tourist map of Abila, Kronos with locations of interest identified
  
 ![](img/MC2-tourist.jpg)
- 
+
 -----
  
 We will proceed by looking through the CSV files in more detail to further understand the datasets provided.
@@ -138,7 +138,7 @@ We aim to answer the following questions found in VAST 2021 Mini-challenge 2:
  
 -----
  
-In order to answer the above questions, this will be the scope and methodology we hope to follow these steps:
+In order to answer the above questions, this will be the scope and methodology steps we hope to follow:
  
 1. Analysis of dataset with background research 
  
@@ -152,7 +152,7 @@ In order to answer the above questions, this will be the scope and methodology w
  
 -----
  
-We hope the answer the VAST questions by using data analysis in steps 2 and 3 to answer the following questions based off our understanding of the datasets in step 1 :
+We hope to answer the VAST questions by using data analysis in steps 2 and 3 to answer the following questions based off our understanding of the datasets in step 1 :
  
 | VAST Questions  | Dataset Questions                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
