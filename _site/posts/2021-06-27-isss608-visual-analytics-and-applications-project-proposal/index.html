@@ -85,638 +85,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>VAAProject</title>
+  <title>ISSS608 Visual Analytics and Applications Project Proposal</title>
 
-  <meta property="description" itemprop="description" content="This is the project page for ISSS608 Visual Analytics and Applications"/>
+  <meta property="description" itemprop="description" content="This is the proposal of our group&#39;s Visual Analytics and Applications Project"/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-06-27"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-06-27"/>
+  <meta name="article:author" content="Unknown"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="VAAProject"/>
+  <meta property="og:title" content="ISSS608 Visual Analytics and Applications Project Proposal"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="This is the project page for ISSS608 Visual Analytics and Applications"/>
+  <meta property="og:description" content="This is the proposal of our group&#39;s Visual Analytics and Applications Project"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="VAAProject"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="VAAProject"/>
-  <meta property="twitter:description" content="This is the project page for ISSS608 Visual Analytics and Applications"/>
+  <meta property="twitter:title" content="ISSS608 Visual Analytics and Applications Project Proposal"/>
+  <meta property="twitter:description" content="This is the proposal of our group&#39;s Visual Analytics and Applications Project"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["VAAProject"]},{"type":"character","attributes":{},"value":["This is the project page for ISSS608 Visual Analytics and Applications\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["ISSS608 Visual Analytics and Applications Project Proposal"]},{"type":"character","attributes":{},"value":["This is the proposal of our group's Visual Analytics and Applications Project\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Unknown"]}]}]},{"type":"character","attributes":{},"value":["06-27-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["isss608-visual-analytics-and-applications-project-proposal_files/anchor-4.2.2/anchor.min.js","isss608-visual-analytics-and-applications-project-proposal_files/bowser-1.9.3/bowser.min.js","isss608-visual-analytics-and-applications-project-proposal_files/distill-2.2.21/template.v2.js","isss608-visual-analytics-and-applications-project-proposal_files/header-attrs-2.6/header-attrs.js","isss608-visual-analytics-and-applications-project-proposal_files/jquery-1.11.3/jquery.min.js","isss608-visual-analytics-and-applications-project-proposal_files/popper-2.6.0/popper.min.js","isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy-bundle.umd.min.js","isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy-light-border.css","isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy.css","isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy.umd.min.js","isss608-visual-analytics-and-applications-project-proposal_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
   <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -2032,15 +1433,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="isss608-visual-analytics-and-applications-project-proposal_files/header-attrs-2.6/header-attrs.js"></script>
+  <script src="isss608-visual-analytics-and-applications-project-proposal_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="isss608-visual-analytics-and-applications-project-proposal_files/popper-2.6.0/popper.min.js"></script>
+  <link href="isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="isss608-visual-analytics-and-applications-project-proposal_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="isss608-visual-analytics-and-applications-project-proposal_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="isss608-visual-analytics-and-applications-project-proposal_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="isss608-visual-analytics-and-applications-project-proposal_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="isss608-visual-analytics-and-applications-project-proposal_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -2052,37 +1454,302 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"VAAProject","description":"This is the project page for ISSS608 Visual Analytics and Applications","authors":[]}
+{"title":"ISSS608 Visual Analytics and Applications Project Proposal","description":"This is the proposal of our group's Visual Analytics and Applications Project","authors":[{"author":"Unknown","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-27T00:00:00.000+08:00","citationText":"Unknown, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">VAAProject</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>VAAProject</h1>
+<h1>ISSS608 Visual Analytics and Applications Project Proposal</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This is the project page for ISSS608 Visual Analytics and Applications</p></p>
+<p><p>This is the proposal of our group’s Visual Analytics and Applications Project</p></p>
 </div>
 
+<div class="d-byline">
+  Unknown  
+  
+<br/>06-27-2021
+</div>
 
 <div class="d-article">
+<hr />
+<h1 id="background-and-objectives">Background and Objectives</h1>
+<hr />
+<p>The company in question is GAStech International (“GT”), which operates in Abila, Kronos, has company cars approved for both personal and business use. Those that do not have company cars have the ability to check out company trucks for business use, but not for personal business. These vehicles have geospatial tracking software to track their movement. To add on to this, GT employees are provided with loyalty and credit cards whose usages are also monitored.</p>
+<p>We, as visual analytics experts, are supposed to use the above information to assist law enforcement in identifying which GT employees made which purchases and identify suspicious patterns of behaviour and make recommendations for further investigation.</p>
+<hr />
+<h1 id="understanding-the-dataset">Understanding the Dataset</h1>
+<hr />
+<p>We are provided with the following csv files:</p>
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 22%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>File</th>
+<th>Description</th>
+<th>Variables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>car-assignments.csv</td>
+<td>A list of vehicle assignments by employee</td>
+<td>Employee Last Name, Employee First Name, Car ID, Current Employment Type (Department), Current Employment Title (job title)</td>
+</tr>
+<tr class="even">
+<td>cc_data.csv</td>
+<td>Credit and debit card transaction data</td>
+<td>Timestamp, Location (name of the business), Price, Last 4 digits of the credit or debit card number</td>
+</tr>
+<tr class="odd">
+<td>loyalty_data.csv</td>
+<td>Loyalty card transaction data</td>
+<td>Timestamp, Location (name of the business), Price, Loyalty Number (A 5-character code starting with L that is unique for each card)</td>
+</tr>
+<tr class="even">
+<td>gps.csv</td>
+<td>Vehicle tracking data</td>
+<td>Timestamp, Car ID, Latitude, Longitude</td>
+</tr>
+</tbody>
+</table>
+<p>Other information we are provided with are as follows:</p>
+<ul>
+<li><p>ESRI shapesfiles of Abila, Kronos</p></li>
+<li><p>MC2-tourist.jpg, which is a tourist map of Abila, Kronos with locations of interest identified</p></li>
+</ul>
+<p>[INSERT IMAGE HERE (MC2-tourist.jpg)]</p>
+<hr />
+<p>We will proceed by looking through the CSV files in more detail to further understand the datasets provided.</p>
+<p><strong>car-assignments.csv, 44 rows</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Type</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>LastName</td>
+<td>String</td>
+<td>44 unique values when combined with FirstName</td>
+</tr>
+<tr class="even">
+<td>FirstName</td>
+<td>String</td>
+<td>See LastName</td>
+</tr>
+<tr class="odd">
+<td>CarID</td>
+<td>Number (Integer)</td>
+<td>1 to 35</td>
+</tr>
+<tr class="even">
+<td>CurrentEmploymentType</td>
+<td>String</td>
+<td>5 unique values</td>
+</tr>
+<tr class="odd">
+<td>CurrentEmploymentTitle</td>
+<td>String</td>
+<td>21 unique values</td>
+</tr>
+</tbody>
+</table>
+<p>Note: Each employee is allocated 1 car, however, there are 9 employees that are not assigned cars. These 9 employees are truck drivers.</p>
+<p>Taking a closer look into CurrentEmploymentType and CurrentEmploymentTitle gives us an overview of the organisation structure.</p>
+<p>[INSERT IMAGE HERE (ORGANISATION STRUCTURE)]</p>
+<p>Each employee can only have one employment title while one employment title can have 1 or more employees. Each employment type has more than 1 employment title and at least one manager that supervises the department. The identified managers are as follows:</p>
+<table>
+<thead>
+<tr class="header">
+<th>CurrentEmploymentType</th>
+<th>CurrentEmploymentTitle (Manager)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Engineering</td>
+<td>Engineering Group Manager and Drill Site Manager</td>
+</tr>
+<tr class="even">
+<td>Executive</td>
+<td>President/CEO</td>
+</tr>
+<tr class="odd">
+<td>Facilities</td>
+<td>Facilities Group Manager</td>
+</tr>
+<tr class="even">
+<td>Information Technology</td>
+<td>IT Group Manager</td>
+</tr>
+<tr class="odd">
+<td>Security</td>
+<td>Security Group Control</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>cc-data.csv, 1,490 rows</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Type</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>timestamp</td>
+<td>Date (mm/dd/yyyy) and time</td>
+<td>1/6/2014 7:28 to 1/19/2014 20:51</td>
+</tr>
+<tr class="even">
+<td>location</td>
+<td>String</td>
+<td>34 unique values</td>
+</tr>
+<tr class="odd">
+<td>price</td>
+<td>Number (Decimal)</td>
+<td>2.01 to 10,000.00</td>
+</tr>
+<tr class="even">
+<td>last4accnum</td>
+<td>String</td>
+<td>55 unique values</td>
+</tr>
+</tbody>
+</table>
+<p>Plotting the price on a box plot, we have noted the following:</p>
+<p>[INSERT IMAGE HERE (BOX PLOT - CC)]</p>
+<hr />
+<p><strong>loyalty-data.csv, 1,392 rows</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Type</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>timestamp</td>
+<td>Date (mm/dd/yyyy)</td>
+<td>1/6/2014 to 1/19/2014</td>
+</tr>
+<tr class="even">
+<td>location</td>
+<td>String</td>
+<td>33 unique values</td>
+</tr>
+<tr class="odd">
+<td>price</td>
+<td>Number (Decimal)</td>
+<td>3.00 to 4,983.52</td>
+</tr>
+<tr class="even">
+<td>loyaltynumber</td>
+<td>String</td>
+<td>54 unique values</td>
+</tr>
+</tbody>
+</table>
+<p>Note: Looking at the difference for locations in cc-data and loyalty-data, it seems that Daily Dealz does not offer loyalty points.</p>
+<p>Plotting the price on a box plot, we have noted the following:</p>
+<p>[INSERT IMAGE HERE (BOX PLOT - LOYALTY)]</p>
+<hr />
+<p><strong>gps.csv, 685,169 rows</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Type</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>timestamp</td>
+<td>Date (mm/dd/yyyy) and time</td>
+<td>1/6/2014 6:28 to 1/19/2014 20:56</td>
+</tr>
+<tr class="even">
+<td>id</td>
+<td>Number (Integer)</td>
+<td>40 unique values (1 to 35, 101, 104, 105, 106, 107)</td>
+</tr>
+<tr class="odd">
+<td>lat</td>
+<td>Number (Decimal)</td>
+<td>36.04802 to 36.08996</td>
+</tr>
+<tr class="even">
+<td>long</td>
+<td>Number (Decimal)</td>
+<td>24.82509 to 24.90849</td>
+</tr>
+</tbody>
+</table>
+<p>It looks like IDs 1 to 35 corresponds to carID in car-assignment.csv. Assume that 101, 104, 105, 106, 107 are Truck IDs. This is interesting to note that this means there are 5 trucks for 9 truck drivers.</p>
+<hr />
+<h1 id="methodology-and-scope">Methodology and Scope</h1>
+<hr />
+<p>We aim to answer the following questions found in VAST 2021 Mini-challenge 2:</p>
+<ol type="1">
+<li><p>Using just the credit and loyalty card data, identify the most popular locations, and when they are popular. What anomalies do you see? What corrections would you recommend to correct these anomalies?</p></li>
+<li><p>Add the vehicle data to your analysis of the credit and loyalty card data. How does your assessment of the anomalies in question 1 change based on this new data? What discrepancies between vehicle, credit, and loyalty card data do you find?</p></li>
+<li><p>Can you infer the owners of each credit card and loyalty card? What is your evidence? Where are there uncertainties in your method? Where are there uncertainties in the data?</p></li>
+<li><p>Given the data sources provided, identify potential informal or unofficial relationships among GASTech personnel. Provide evidence for these relationships.</p></li>
+<li><p>Do you see evidence of suspicious activity? Identify 1-10 locations where you believe the suspicious activity is occurring, and why?</p></li>
+</ol>
+<hr />
+<p>In order to answer the above questions, this will be the scope and methodology we hope to follow these steps:</p>
+<ol type="1">
+<li><p>Analysis of dataset with background research</p></li>
+<li><p>Exploratory Data Analysis (EDA) methods in R</p></li>
+<li><p>Exploratory Spatial Data Analysis (ESDA) methods in R</p></li>
+<li><p>R Markdown development for functionality checks</p></li>
+<li><p>R-Shiny app development for user interactivity</p></li>
+</ol>
+<hr />
+<p>We hope the answer the VAST questions by using data analysis in steps 2 and 3 to answer the following questions based off our understanding of the datasets in step 1 :</p>
+<table>
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 96%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>VAST Questions</th>
+<th>Dataset Questions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1, 2 and 3</td>
+<td>Which employees have been at which locations at the same time? Which cards and vehicles are used during then? <br>There are 54 and 55 unique loyalty and CC cards respectively, however, there are only 44 unique employees. How were these extra cards used? <br>There are 35 and 34 unique locations where the cc has been used and loyalty points have been issued. Which location is the most popular among the employees?</td>
+</tr>
+<tr class="even">
+<td>4 and 5</td>
+<td>Have the supervisors been supervising their employees? <br>Do employees from different employment types and titles hang out together? <br>Which employees have the highest interactions with truck drivers and where?</td>
+</tr>
+</tbody>
+</table>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
